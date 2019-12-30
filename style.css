@@ -1,0 +1,82 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	background: rgb(0,249,242);
+background: linear-gradient(180deg, rgba(0,249,242,1) 0%, rgba(154,202,214,1) 28%, rgba(255,146,220,1) 35%);
+}
+.prev {
+	top: 47%;
+	position: fixed;
+	width: 5%;
+
+}
+.prev img {
+	width: 100%;
+
+}
+.next {
+	top: 47%;
+	position: fixed;
+	right: 0;
+	width: 5%;
+}
+.next img {
+	width: 100%;
+}
+
+.profile-container {
+	background-color: #F4F5F5;
+	text-align: center;
+	margin: auto;
+	margin-top: 3%;
+	width: 30%;
+	border-radius: 15px;
+	padding-bottom: 3%;
+	padding-top: 3%;
+}
+.profile-img img{
+	width: 50%;
+	border-radius: 100%;
+	border: 5px solid black;
+}
+.main-container {
+	padding-top: 10%;
+	width: 90%;
+	margin: auto;
+	text-align: center;
+	float: top;
+
+
+}
+.project-box-container{
+	background-color: #F4F5F5;
+	display: inline-block;
+	width: 27%;
+	border-radius: 10px;
+	height: 50vh;
+	vertical-align: top;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+.project-center {
+	margin-left: 5%;
+}
+.project-right {
+	margin-left: 5%;
+}
+.project-box{
+	padding: 5%;
+}
+.project-box img {
+
+}
+
+.project-container {
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 10%;
+	text-align: center;
+}
+.title {
+	margin: auto;
+	height: 15vh;
+}
