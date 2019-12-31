@@ -1,7 +1,7 @@
 body {
 	font-family: 'Montserrat', sans-serif;
 	background: rgb(0,249,242);
-background: linear-gradient(180deg, rgba(0,249,242,1) 0%, rgba(154,202,214,1) 28%, rgba(255,146,220,1) 35%);
+background: linear-gradient(180deg, rgba(62,231,226,1) 0%, rgba(154,202,214,1) 30%, rgba(255,146,220,1) 35%);
 }
 .prev {
 	top: 47%;
@@ -32,33 +32,60 @@ background: linear-gradient(180deg, rgba(0,249,242,1) 0%, rgba(154,202,214,1) 28
 	border-radius: 15px;
 	padding-bottom: 3%;
 	padding-top: 3%;
+	box-shadow: 10px 10px 6px #ACACAC;
 }
 .profile-img img{
 	width: 50%;
 	border-radius: 100%;
-	border: 5px solid black;
+}
+.profile-content img{
+	width: 30%;
+	vertical-align: middle;
+}
+.button a{
+	text-decoration: none;
+	color: white;
+	padding: 3%;
+	border-radius: 10px;
+}
+.contact a{
+		background-color: #41E52B;
+}
+.hire {
+	padding-top: 4%;
+}
+.hire a{
+		background-color: #E13434;
+}
+.resume {
+	padding-top: 4%;
+}
+.resume a{
+	background-color: #2D91DF;
 }
 .main-container {
-	padding-top: 10%;
+	padding-top: 5%;
 	width: 90%;
 	margin: auto;
 	text-align: center;
-	float: top;
 
 
 }
 .project-box-container{
 	background-color: #F4F5F5;
 	display: inline-block;
-	width: 27%;
+	width: 25%;
 	border-radius: 10px;
-	height: 50vh;
-	vertical-align: top;
+	height: 55vh;
+	vertical-align: middle;
 	padding-left: 1%;
 	padding-right: 1%;
+	box-shadow: 10px 10px 5px #ACACAC;
 }
 .project-center {
 	margin-left: 5%;
+	width: 33%;
+	height: 64vh;
 }
 .project-right {
 	margin-left: 5%;
@@ -67,14 +94,42 @@ background: linear-gradient(180deg, rgba(0,249,242,1) 0%, rgba(154,202,214,1) 28
 	padding: 5%;
 }
 .project-box img {
-
+	max-height: 30%;
+	max-width: 60%;
+	border-radius: 5px;
 }
 
+.source img{
+	width: 30%;
+	vertical-align: middle;
+}
 .project-container {
 	padding-left: 5%;
 	padding-right: 5%;
 	padding-top: 10%;
+	padding-bottom: 5%;
 	text-align: center;
+}
+.project-img {
+	display: inline-block;
+	width: 47%;
+	height: 100%;
+	margin: auto;
+}
+.project-content img {
+	width: 100%;
+	border-radius: 5%;
+	margin: auto;
+}
+.project-content {
+	display: inline-block;
+	width: 47%;
+	vertical-align: middle;
+	margin: auto;
+}
+
+.right {
+	padding-left: 2%;
 }
 .title {
 	margin: auto;
