@@ -1,20 +1,68 @@
 body {
-	font-family: 'Montserrat', sans-serif;
-	background: rgb(0,249,242);
+	font-family: 'Inria Serif', serif;
+	margin: 0;
+	/*background: rgb(0,249,242);
 background: linear-gradient(180deg, rgba(62,231,226,1) 0%, rgba(154,202,214,1) 30%, rgba(255,146,220,1) 35%);
+*/}
+p {
+	font-family: 'Inria Serif', serif;
+}
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+}
+h3 {
+	font-family: 'Inria Serif', serif;
+}
+hr {
+	border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(87, 89, 92), rgba(0, 0, 0, 0));
+}
+.zero {
+	background-color: #0B264D;
+	padding: 2%;
+}
+.first {
+background-color: #8593A6;
+margin: 0px;
+width: 100%;
+padding-bottom: 5%;
+}
+.second {
+background-color: #A4AEBC;	
+}
+.third {
+background-color: #C2C9D3;	
+}
+.fourth {
+background-color: #E1E4E9;	
+}
+.fifth {
+background-color: #F0F2F4;	
+}
+.sixth {
+background-color: #F4F5F7;	
+}
+.seventh {
+background-color: white;	
 }
 .prev {
-	top: 47%;
+	top: 50%;
 	position: fixed;
 	width: 5%;
+	left:0;
 
 }
 .prev img {
 	width: 100%;
 
 }
+.prev img:hover {
+	content: url("arrow-left-white.png");
+}
 .next {
-	top: 47%;
+	top: 50%;
 	position: fixed;
 	right: 0;
 	width: 5%;
@@ -22,65 +70,82 @@ background: linear-gradient(180deg, rgba(62,231,226,1) 0%, rgba(154,202,214,1) 3
 .next img {
 	width: 100%;
 }
+.next img:hover {
+	content: url("arrow-right-white.png");
+}
+
+
 
 .profile-container {
 	background-color: #F4F5F5;
 	text-align: center;
 	margin: auto;
-	margin-top: 3%;
-	width: 30%;
-	border-radius: 15px;
-	padding-bottom: 3%;
-	padding-top: 3%;
-	box-shadow: 10px 10px 6px #ACACAC;
+	width: 90%;
+	padding: 6% 0% 6% 0%;
+	box-shadow: 10px 10px 5px #081C38;
 }
 .profile-img img{
-	width: 50%;
+	width: 25%;
 	border-radius: 100%;
 }
 .profile-content img{
-	width: 30%;
+	width: 10%;
 	vertical-align: middle;
 }
-.button a{
+.button {
+		width: 50%;
+		margin: auto;
+		padding: 2%;
+		border-radius: 20px;
+}
+.profile-content a{
 	text-decoration: none;
 	color: white;
-	padding: 3%;
-	border-radius: 10px;
+
 }
-.contact a{
+.contact{
 		background-color: #41E52B;
 }
-.hire {
-	padding-top: 4%;
+.contact:hover{
+		background-color: #35A426;
 }
-.hire a{
-		background-color: #E13434;
+.hire {
+	margin-top: 1%;
+	background-color: #E13434;
+}
+.hire:hover{
+	background-color: #C62F2F;
 }
 .resume {
-	padding-top: 4%;
-}
-.resume a{
+	margin-top: 1%;
 	background-color: #2D91DF;
 }
+.resume:hover {
+	background-color: #17649F;
+}
+
 .main-container {
 	padding-top: 5%;
 	width: 90%;
 	margin: auto;
 	text-align: center;
-
-
+}
+.main-container hr{
+	margin-bottom: 5%;
 }
 .project-box-container{
 	background-color: #F4F5F5;
 	display: inline-block;
 	width: 25%;
-	border-radius: 10px;
+
 	height: 55vh;
 	vertical-align: middle;
 	padding-left: 1%;
 	padding-right: 1%;
-	box-shadow: 10px 10px 5px #ACACAC;
+	box-shadow: 10px 10px 5px #6E7886;
+}
+.project-box-container a {
+	color: black;
 }
 .project-center {
 	margin-left: 5%;
@@ -118,7 +183,6 @@ background: linear-gradient(180deg, rgba(62,231,226,1) 0%, rgba(154,202,214,1) 3
 }
 .project-content img {
 	width: 100%;
-	border-radius: 5%;
 	margin: auto;
 }
 .project-content {
@@ -127,11 +191,68 @@ background: linear-gradient(180deg, rgba(62,231,226,1) 0%, rgba(154,202,214,1) 3
 	vertical-align: middle;
 	margin: auto;
 }
-
+.project-content form {
+	text-align: left;
+	padding-bottom: 5%;
+	margin-left: 0;
+}
+.contact-form input[type=text], textarea{
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+.contact-form textarea{
+	height: 25vh;
+	resize: none;
+	font-family: 'Inria Serif', serif;
+}
+.contact-form button{
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.hire-form button:hover {
+	background-color: #45a049;
+}
+.hire-form input[type=text], textarea{
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+.hire-form textarea{
+	height: 25vh;
+	resize: none;
+	font-family: 'Inria Serif', serif;
+}
+.hire-form button{
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.hire-form button:hover {
+	background-color: #45a049;
+}
 .right {
 	padding-left: 2%;
 }
 .title {
 	margin: auto;
 	height: 15vh;
+}
+.fifth div {
+	display: block;	
 }
