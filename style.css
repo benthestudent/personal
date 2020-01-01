@@ -81,7 +81,7 @@ background-color: white;
 	text-align: center;
 	margin: auto;
 	width: 90%;
-	padding: 6% 0% 6% 0%;
+	padding: 7% 0% 7% 0%;
 	box-shadow: 10px 10px 5px #081C38;
 }
 .profile-img img{
@@ -111,17 +111,17 @@ background-color: white;
 }
 .hire {
 	margin-top: 1%;
-	background-color: #E13434;
+	background-color: #3DBD5B;
 }
 .hire:hover{
-	background-color: #C62F2F;
+	background-color: #309A48;
 }
 .resume {
 	margin-top: 1%;
-	background-color: #2D91DF;
+	background-color: #55A1DC;
 }
 .resume:hover {
-	background-color: #17649F;
+	background-color: #3A6F98;
 }
 
 .main-container {
@@ -174,6 +174,9 @@ background-color: white;
 	padding-top: 10%;
 	padding-bottom: 5%;
 	text-align: center;
+}
+.project-container p{
+	line-height: 2.3em;
 }
 .project-img {
 	display: inline-block;
