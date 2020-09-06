@@ -14,11 +14,11 @@
 			<div class="profile-content">
 				<h1>Ben Phillips</h1>
 				<p>Freelance Developer</p>
-				<p>Skilled in Python, Javascript, React Native, HTML, CSS, SQL, Java, Raspberry Pi, and Arduino development</p>
+				<p>Skilled in Python, Javascript, Machine Learning, AWS, HTML, CSS, SQL, Java, Raspberry Pi, and Arduino development</p>
 				<p><a href="https://github.com/benthestudent"><img src="GitHub_Logo.png"></a>                  
 				<a href="https://www.linkedin.com/in/benjamin-phillips-a6889a192/" style="padding-left: 15px;"><img src="LI-Logo.png"></a></p>
-				<a href="#4"><div class="button hire">Contact Me</div></a>
-				<a href=""><div class="button resume">Resume</div></a>
+				<a href="#5"><div class="button hire">Contact Me</div></a>
+				<a href="https://www.upwork.com/o/profiles/users/~0109bb42ef62a2f071/"><div class="button resume">Hire Me</div></a>
 			</div>
 		</div>
 	</div>
@@ -30,8 +30,9 @@
 				<div class="project-box">
 					<img src="tree.png">
 					<h3>Replant Earth</h3>
+					<strong>In Progress</strong>
 					<p>Winner of the Make School Social Impact award at the Atom and Bits Hackathon, Replant Earth, (originally named Treology) a simple website and its corresponding app, provides a method for anybody to easily help reverse the catastrophic effects of deforestation. </p>
-					<p class="source"><a href=""><img src="GitHub_Logo.png"></a></p>
+					<p class="source"><a href="https://github.com/benthestudent/replantearth"><img src="GitHub_Logo.png"></a></p>
 					<p><a href="#2">More Info</a></p>
 				</div>
 			</div>
@@ -49,9 +50,48 @@
 					<img src="html.png">
 					<h3>This Website</h3>
 					<p>A simple, sleek, single page, this website serves its purpose with style and simplicity. Presenting myself, portfolio, and skills, this website, developed in a little over a day, demonstrates my ability to develop with focus and efficiency.</p>
-					<p class="source"><a href=""><img src="GitHub_Logo.png"></a></p>
+					<p class="source"><a href="https://github.com/benthestudent/personal"><img src="GitHub_Logo.png"></a></p>
 					<p><a href="#3">More Info</a></p>
 				</div>
+			</div>
+
+			<div class='row2'>
+				<div class="project-box-container project-left">
+					<div class="project-box">
+						<img src="blab-logo.png">
+						<h3>BLab</h3>
+						<p>Used in my high school's production of <i>The Little Mermaid</i> and other theater performances, this software helps simplify the sound effect and music organization, ordering and playing process. A user-friendly, programmed in Java soundboard, Blab was my Windows-compatible equivalent to the soundboard functions of the popular program QLab and, thus, possesses the essential functionality to help in the audio playing aspects of various theater productions.</p>
+						<p class="source"><a href="https://github.com/benthestudent/BLab"><img src="GitHub_Logo.png"></a></p>
+						<p><a href="http://blab.benphillips.site/">More Info</a></p>
+					</div>
+				</div>
+				<div class="project-box-container project-center">
+					<div class="project-box">
+						<a href="https://diyhub.io/" target="_blank"><img src="diyhublogo.png"></a>
+						<h3><a href="https://diyhub.io/" target="_blank">diyhub.io</a></h3>
+						<p>Made in collaboration with front-end developer, Elijah Lopez, our project diyhub.io serves as a search engine for DIY projects and allows users to find projects that require only the parts and supplies they have on hand. Users can select the parts they already own from a list of supplies, and our website, with its Django back-end, filters through our database of projects and displays all the various creations the given user can build. Users can also upload and publish their own DIY project tutorials for others to find and create.</p>
+						<p class="source"><a href="https://github.com/benthestudent/DIYHub"><img src="GitHub_Logo.png"></a></p>
+						<p><a href="#4">More Info</a></p>
+					</div>
+				</div>
+				<div class="project-box-container project-right">
+					<div class="project-box">
+						<img src="rpicam.png">
+						<h3>Raspberry Pi Thermal Camera</h3>
+						<p>Based on <a href="https://nalbam.github.io/2020/02/28/body-temperature-alarm-en.html" target="_blank">this project</a>, this Raspberry pi-based camera and temperature reader utilizes a thermal camera and a database of faces to recognize people as they enter a building, read their temperature and send alerts through Slack if they show signs of fever or sickness. Using AWS Lambda, S3 and Rekognition, this python program effectively utilizes machine learning and sensory input to provide extra security against the COVID-19 virus by detecting potentially infected people.</p>
+						<p class="source"><a href="https://github.com/benthestudent/personal"><img src="GitHub_Logo.png"></a></p>
+					</div>
+				</div>
+
+			</div>
+			<!-- <div class="project-box-container project-center">
+				<div class="project-box">
+					<img src="blab-logo.png">
+					<h3>BLab</h3>
+					<p>Developed to simplify my work in my high school theater, BLab condenses my prior setup of a dozen or more Quicktime Player windows into one graphic interface. With Blab, one can organize, open and play cues with ease.</p>
+					<p class="source"><a href="https://github.com/benthestudent/Blab"><img src="GitHub_Logo.png"></a></p>
+					<p><a href="blab.benphillips.site">More Info</a></p>
+				</div> -->
 			</div>
 		</div>
 	</div>
@@ -102,14 +142,25 @@
 		</div>
 	</div>
 
-	<div class="sixth">	
+		<div class="sixth">
 		<div class="project-container" id="4">
+			<div class="title"><h1>diyhub.io</h1><hr></div>
+			<div class="content-container">
+				<div class="project-content"><img src="diyhubprev.png"></div>
+				<div class="project-content right">
+					<p>Inspired by my desire to build DIY projects and inability to find projects I could build with what I had, I teamed up with talented front-end developer and close friend Elijah Lopez to create diyhub.io. Sourcing projects from various DIY websites and our own users, diyhub.io uses a database of projects and parts to allow users to find, filter through and discover projects they can build with what they have. Moreover, anyone can upload and publish their own DIY tutorials to the site for others to discover and create. Using Django, PostgreSQL, AWS Lightsail, Apache, Javascript, HTML, CSS, and Bootstrap, diyhub.io represents Elijah's and my own collective ability to work together to produce a well-designed, fully functional, responsive and interactive website, adminster its server and market it to users.</p>
+				</div>	
+			</div>
+		</div>
+	</div>
+	<div class="seventh">	
+		<div class="project-container" id="5">
 			<div class="title"><h1>Contact Me</h1><hr></div>
 			<div class="content-container">
 				<div class="project-content right">
 					<form class="contact-form">
 						<h1>Email: benthefreelancer@gmail.com</h1>
-						<h1>Phone: (925) 522-1741</h1>
+						<!-- <h1>Phone: (925) 522-1741</h1> -->
 					</form>
 				</div>	
 			</div>

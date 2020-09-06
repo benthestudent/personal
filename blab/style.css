@@ -1,0 +1,259 @@
+body {
+	font-family: 'Inria Serif', serif;
+	margin: 0;
+	/*background: rgb(0,249,242);
+background: linear-gradient(180deg, rgba(62,231,226,1) 0%, rgba(154,202,214,1) 30%, rgba(255,146,220,1) 35%);
+*/}
+p {
+	font-family: 'Inria Serif', serif;
+}
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+}
+h3 {
+	font-family: 'Inria Serif', serif;
+}
+hr {
+	border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(87, 89, 92), rgba(0, 0, 0, 0));
+}
+.zero {
+	background-color: #0B264D;
+	padding: 2%;
+}
+.first {
+background-color: #8593A6;
+margin: 0px;
+width: 100%;
+padding-bottom: 5%;
+}
+.second {
+background-color: #A4AEBC;	
+}
+.third {
+background-color: #C2C9D3;	
+}
+.fourth {
+background-color: #E1E4E9;	
+}
+.fifth {
+background-color: #F0F2F4;	
+}
+.sixth {
+background-color: #F4F5F7;	
+}
+.seventh {
+background-color: white;	
+}
+.prev {
+	top: 50%;
+	position: fixed;
+	width: 5%;
+	left:0;
+
+}
+.prev img {
+	width: 100%;
+
+}
+.prev img:hover {
+	content: url("arrow-left-white.png");
+}
+.next {
+	top: 50%;
+	position: fixed;
+	right: 0;
+	width: 5%;
+}
+.next img {
+	width: 100%;
+}
+.next img:hover {
+	content: url("arrow-right-white.png");
+}
+
+
+
+.profile-container {
+	background-color: #F4F5F5;
+	text-align: center;
+	margin: auto;
+	width: 90%;
+	padding: 7% 0% 7% 0%;
+	box-shadow: 10px 10px 5px #081C38;
+}
+.profile-img img{
+	width: 25%;
+	border-radius: 100%;
+}
+.profile-content img{
+	width: 10%;
+	vertical-align: middle;
+}
+.button {
+		width: 50%;
+		margin: auto;
+		padding: 2%;
+		border-radius: 20px;
+}
+.profile-content a{
+	text-decoration: none;
+	color: white;
+
+}
+.contact{
+		background-color: #41E52B;
+}
+.contact:hover{
+		background-color: #35A426;
+}
+.hire {
+	margin-top: 1%;
+	background-color: #3DBD5B;
+}
+.hire:hover{
+	background-color: #309A48;
+}
+.resume {
+	margin-top: 1%;
+	background-color: #55A1DC;
+}
+.resume:hover {
+	background-color: #3A6F98;
+}
+
+.main-container {
+	padding-top: 5%;
+	width: 90%;
+	margin: auto;
+	text-align: center;
+}
+.main-container hr{
+	margin-bottom: 5%;
+}
+.project-box-container{
+	background-color: #F4F5F5;
+	display: inline-block;
+	width: 25%;
+	
+	vertical-align: middle;
+	padding-left: 1%;
+	padding-right: 1%;
+	box-shadow: 10px 10px 5px #6E7886;
+}
+.project-box-container a {
+	color: black;
+}
+.project-center {
+	margin-left: 5%;
+	width: 33%;
+}
+.project-right {
+	margin-left: 5%;
+}
+.project-box{
+	padding: 5%;
+}
+.project-box img {
+	max-height: 30%;
+	max-width: 60%;
+	border-radius: 5px;
+}
+
+.source img{
+	width: 30%;
+	vertical-align: middle;
+}
+.project-container {
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 10%;
+	padding-bottom: 5%;
+	text-align: center;
+}
+.project-container p{
+	line-height: 2.3em;
+}
+.project-img {
+	display: inline-block;
+	width: 47%;
+	height: 100%;
+	margin: auto;
+}
+.project-content img {
+	width: 100%;
+	margin: auto;
+}
+.project-content {
+	display: inline-block;
+	width: 47%;
+	vertical-align: middle;
+	margin: auto;
+}
+.project-content form {
+	text-align: left;
+	padding-bottom: 5%;
+	margin-left: 0;
+}
+.contact-form input[type=text], textarea{
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+.contact-form textarea{
+	height: 25vh;
+	resize: none;
+	font-family: 'Inria Serif', serif;
+}
+.contact-form button{
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.hire-form button:hover {
+	background-color: #45a049;
+}
+.hire-form input[type=text], textarea{
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+.hire-form textarea{
+	height: 25vh;
+	resize: none;
+	font-family: 'Inria Serif', serif;
+}
+.hire-form button{
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.hire-form button:hover {
+	background-color: #45a049;
+}
+.right {
+	padding-left: 2%;
+}
+.title {
+	margin: auto;
+	height: 15vh;
+}
+.fifth div {
+	display: block;	
+}
